@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  background-color: #fff;
+  /* background-color: #fff; */
   font-family: lato;
 }
 
@@ -11,14 +11,45 @@
 .header {
   color: #000;
   margin: 0.5em;
+  padding-top: px;
 
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 72%;
 }
+.first {
+  background-image: url(images/pexels-chris-czermak-2557527.jpg);
+  /* min-height: 550px; */
+  width: 100%;
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  display: block;
+
+}
+.top {
+  background-color: rgba(1, 1, 1, 0.25) !important;
+  color: #fff;
+  font-size: 80px;
+  font-weight: bold;
+  height: 750px;
+  padding-top: 30px;
+}
+
+/* Below the image */
+.main {
 
 
+}
+
+/* Footer */
+.footer {
+  
+}
 
 /* The side navigation menu */
 .sidenav {
@@ -28,7 +59,7 @@
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
     right: 0;
-    background-color: #dfe0e1;
+    background-color: #fff;
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
