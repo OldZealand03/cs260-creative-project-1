@@ -5,6 +5,13 @@
   font-family: lato;
 }
 
+/* Navbar */
+.bar {
+  font-size: 30px !important;
+}
+.navbar {
+  font-size: 20px !important;
+}
 
 
 /* Header */
@@ -43,8 +50,8 @@
 /* Below the image */
 .main {
   margin-top: 50px;
-  padding-left: 21%;
-  padding-right: 21%;
+  padding-left: 25%;
+  padding-right: 25%;
 }
 .content {
   justify-content: center;
