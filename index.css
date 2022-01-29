@@ -16,7 +16,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 72%;
+  gap: 80%;
 }
 .first {
   background-image: url(images/pexels-chris-czermak-2557527.jpg);
@@ -42,13 +42,37 @@
 
 /* Below the image */
 .main {
-
-
+  margin-top: 50px;
+  padding-left: 21%;
+  padding-right: 21%;
+}
+.content {
+  justify-content: center;
+}
+.large {
+  font-size: 60px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.small {
+  font-size: 32px;
+  text-align: left;
 }
 
 /* Footer */
 .footer {
-  
+  background-color: #fff;
+  height: 60px;
+  text-align: center;
+  align-items: center;
+  font-size: 65px;
+  color: #000;
+  display: flex;
+  justify-content: center;
+}
+.footer-item {
+  padding-right: 50px;
+  padding-left: 50px;
 }
 
 /* The side navigation menu */
@@ -91,7 +115,7 @@
   
   /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
   #main {
-    transition: margin-left .5s;
+    transition: margin-right .5s;
     padding: 20px;
   }
 
