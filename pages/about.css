@@ -10,7 +10,6 @@
   transition: all 0.3s;
   font-size: 0.9rem;
 }
-
 .social-link:hover,
 .social-link:focus {
   background: #ddd;
@@ -19,4 +18,12 @@
 }
 .background-color-dark {
   background-color: #406882;
+}
+.display-4 {
+  font-weight: bold;
+}
+.about-subtext {
+  font-weight: bold;
+  color: black;
+  font-size: 30px;
 }
