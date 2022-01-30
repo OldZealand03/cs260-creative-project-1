@@ -140,10 +140,10 @@
 /* Footer */
 .footer {
   background-color: #fff;
-  height: 60px;
+  height: 15px;
   text-align: center;
   align-items: center;
-  font-size: 65px;
+  font-size: 15px;
   color: #000;
   display: flex;
   justify-content: center;
